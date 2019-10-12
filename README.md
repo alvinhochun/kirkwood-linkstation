@@ -1,8 +1,8 @@
 Kirkwood LinkStation
 ===
 
-Config and Utils for the Kirkwood-based Buffalo LinkStation LS-WVL running
-Debian Buster.
+Notes, config and utils for the Kirkwood-based Buffalo LinkStation LS-WVL
+running Debian Buster.
 
 
 Important Notice
@@ -24,6 +24,8 @@ Contents
 - [`power-switch/`](power-switch/) - Notes regarding the power switch,
   including a bash script to be run as a service to power off the system when
   the power switch is moved to the "OFF" position.
+- [`reverse-eng/`](reverse-eng/) - Something something reverse engineering...
+- [`wol.md`](wol.md) - Notes on Wake-on-LAN.
 
 
 MIT Licence
