@@ -1,0 +1,11 @@
+[Unit]
+Description=Power Switch Watcher for the Buffalo LinkStation
+
+[Service]
+ExecStart=/usr/local/sbin/power-switch-watch
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=power-switch-watch
+
+[Install]
+WantedBy=multi-user.target
